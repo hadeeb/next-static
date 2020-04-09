@@ -14,6 +14,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+## Exporting a static site
+```bash
+npm run build && npm run export
+# or
+yarn build && yarn export
+```
+
+Static files will be generated and saved to the directory `out`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
