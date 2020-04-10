@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import * as styles from "./index.module.css";
+import * as styles from "./index.module.scss";
 
 const Home = () => (
   <div className={styles.container}>
